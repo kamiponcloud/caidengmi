@@ -1,0 +1,13 @@
+#月{
+    width: 90px;
+    height: auto;
+}
+#img{
+    display: flex;
+    flex-direction: column;
+}
+.music{
+    background: crimson;
+    border: gold solid 1px;
+    margin-left: 93.9%
+}
