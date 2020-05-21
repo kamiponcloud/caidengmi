@@ -10,10 +10,10 @@ function myFunction() {
 }
 function change() {
     x = document.getElementById('铜');
-    if(x.src.match("铜2")){
-        x.src="img/铜1.jpg";
+    if(x.src.match("tong2")){
+        x.src="img/tong1.jpg";
     }
     else {
-        x.src="img/铜2.jpg";
+        x.src="img/tong2.jpg";
     }
 }
