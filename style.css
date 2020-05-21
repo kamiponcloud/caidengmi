@@ -1,5 +1,5 @@
 #月{
-    width: 90px;
+    width: 150px;
     height: auto;
 }
 #img{
@@ -9,5 +9,16 @@
 .music{
     background: crimson;
     border: gold solid 1px;
-    margin-left: 93.9%
+    margin-left:90%
+}
+#quest{
+    display:flex;
+    flex-direction: column;
+}
+#head{
+    margin-left:45%
+
+}
+#tis{
+    margin-left:60%
 }
