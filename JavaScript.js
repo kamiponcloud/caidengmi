@@ -8,3 +8,12 @@ function myFunction() {
     x=document.getElementById("C");
     x.innerHTML = "请";
 }
+function change() {
+    x = document.getElementById('铜');
+    if(x.src.match("铜2")){
+        x.src="img/铜1.jpg";
+    }
+    else {
+        x.src="img/铜2.jpg";
+    }
+}

@@ -1,3 +1,11 @@
+#mix{
+    display: flex;
+    flex-direction: row;
+}
+#铜{
+    width: 200px;
+    height: auto;
+}
 #月{
     width: 150px;
     height: auto;
@@ -8,8 +16,8 @@
 }
 .music{
     background: crimson;
-    border: gold solid 1px;
-    margin-left:90%
+    border: gold;
+    margin-left:40%
 }
 #quest{
     display:flex;
