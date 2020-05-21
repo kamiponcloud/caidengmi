@@ -17,3 +17,7 @@ function change() {
         x.src="img/tong2.jpg";
     }
 }
+function red() {
+    x = document.getElementById("D");
+    x.style.color="#ff0000";
+}
