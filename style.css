@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 #mix{
     display: flex;
     flex-direction: row;
@@ -17,16 +21,59 @@
 .music{
     background: crimson;
     border: gold;
-    margin-left:40%
+    margin-left:40%;
 }
 #quest{
     display:flex;
     flex-direction: column;
 }
 #head{
-    margin-left:45%
+    width: 230px;
+    height: 100px;
+    border: gold solid;
+    border-radius: 25px;
+    font-size: 72px;
+    margin-left:40%;
+}
+p .tooltip{
+    color: aquamarine;
+    position: relative;
+}
+/*p .tooltip::before{*/
+/*    content:"";*/
+/*    position: absolute;*/
+/*    height: 0;*/
+/*    width: 0;*/
+/*    border: 15px solid transparent;*/
+/*    border-right-color: black;*/
+/*    left:calc(100%);*/
+/*    top:-20px;*/
+/*    transition: all 0.5s;*/
+/*    opacity: 0;*/
+/*}*/
+p .tooltip::after{
+    width: 0;
+    height: 0;
+    content:attr(title);
+    font-size: 20px;
+    padding:5px 50px;
+    word-break: keep-all;
+    background-color: #000;
+    opacity: 0;
+    bottom: calc(100%);
+    top: 50px;
+    transition: all 0.5s;
+    position: relative;
+    border:10px solid black;
+    border-radius: 5px;
 
 }
-#tis{
-    margin-left:60%
+/*p .tooltip:hover::before{*/
+/*    opacity: 0.8;*/
+/*    top:50px;*/
+/*    position: absolute;*/
+/*}*/
+p .tooltip:hover::after{
+    opacity: 0.8;
+    top:50px;
 }
