@@ -66,7 +66,6 @@ p .tooltip::after{
     position: relative;
     border:10px solid black;
     border-radius: 5px;
-
 }
 /*p .tooltip:hover::before{*/
 /*    opacity: 0.8;*/
@@ -77,3 +76,40 @@ p .tooltip:hover::after{
     opacity: 0.8;
     top:50px;
 }
+/*导航栏*/
+#in{
+    position: absolute;
+    left: 500px;
+    top: 0;
+    width: 600px;
+    height: 40px;
+    background-color: aqua;
+    text-align: center;
+}
+.father{
+    color: aliceblue;
+    display: inline-block;
+    position: relative;
+    line-height: 40px;
+    width: 100px;
+    height: 40px;
+}
+.son{
+    list-style: none;
+    display: none;
+    position:absolute;
+    background-color: aqua;
+    width: 100px;
+    top: 40px;
+}
+li:hover{
+    background-color: blue;
+    color: red;
+    transition: background-color.5s;
+}
+.father:hover .son{
+    background-color: blue;
+    transition: background-color.5s;
+    display: block;
+}
+/*导航栏*/
